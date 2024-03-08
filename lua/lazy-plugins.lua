@@ -28,8 +28,6 @@ require('lazy').setup({
   -- modular approach: using `require 'path/name'` will
   -- include a plugin definition from file lua/path/name.lua
 
-  require 'kickstart/plugins/gitsigns',
-
   require 'kickstart/plugins/which-key',
 
   require 'kickstart/plugins/telescope',
@@ -44,25 +42,23 @@ require('lazy').setup({
 
   require 'kickstart/plugins/todo-comments',
 
-  require 'kickstart/plugins/mini',
-
   require 'kickstart/plugins/treesitter',
 
   require 'kickstart/plugins/nvim-tree',
 
-  require 'kickstart/plugins/transparent',
+  --  require 'kickstart/plugins/transparent',
 
-  require 'kickstart/plugins/neorg'
+  require 'kickstart/plugins/neorg',
 
-  require 'kickstart/plugins/mkdnflow'
+  -- require 'kickstart/plugins/mkdnflow',
 
-  require 'kickstart/plugins/neoscroll'
+  require 'kickstart/plugins/neoscroll',
 
-  require 'kickstart/plugins/telekasten'
+  require 'kickstart/plugins/telekasten',
 
-  require 'kickstart/plugins/bufferline'
+  require 'kickstart/plugins/bufferline',
 
-  require 'kickstart/plugins/sniprun'
+  require 'kickstart/plugins/sniprun',
 
   -- dupa
   -- The following two comments only work if you have downloaded the kickstart repo, not just copy pasted the
@@ -83,12 +79,5 @@ require('lazy').setup({
   --  Uncomment the following line and add your plugins to `lua/custom/plugins/*.lua` to get going.
   --    For additional information, see `:help lazy.nvim-lazy.nvim-structuring-your-plugins`
   -- { import = 'custom.plugins' },
-}, {
-  ui = {
-    -- If you have a Nerd Font, set icons to an empty table which will use the
-    -- default lazy.nvim defined Nerd Font icons otherwise define a unicode icons table
-    icons = {},
-  },
 })
-
 -- vim: ts=2 sts=2 sw=2 et
