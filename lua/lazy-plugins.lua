@@ -50,7 +50,21 @@ require('lazy').setup({
 
   require 'kickstart/plugins/nvim-tree',
 
+  require 'kickstart/plugins/transparent',
 
+  require 'kickstart/plugins/neorg'
+
+  require 'kickstart/plugins/mkdnflow'
+
+  require 'kickstart/plugins/neoscroll'
+
+  require 'kickstart/plugins/telekasten'
+
+  require 'kickstart/plugins/bufferline'
+
+  require 'kickstart/plugins/sniprun'
+
+  -- dupa
   -- The following two comments only work if you have downloaded the kickstart repo, not just copy pasted the
   -- init.lua. If you want these files, they are in the repository, so you can just download them and
   -- put them in the right spots if you want.
