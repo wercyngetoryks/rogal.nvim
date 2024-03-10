@@ -29,6 +29,8 @@ require('lazy').setup({
   -- include a plugin definition from file lua/path/name.lua
 
   require 'kickstart/plugins/which-key',
+  
+  require 'kickstart/plugins/oxocarbon',
 
   require 'kickstart/plugins/telescope',
 
@@ -46,7 +48,7 @@ require('lazy').setup({
 
   require 'kickstart/plugins/nvim-tree',
 
-  --  require 'kickstart/plugins/transparent',
+  require 'kickstart/plugins/transparent',
 
   require 'kickstart/plugins/neorg',
 
