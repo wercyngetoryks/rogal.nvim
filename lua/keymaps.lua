@@ -42,4 +42,10 @@ vim.api.nvim_create_autocmd('TextYankPost', {
   end,
 })
 
+vim.keymap.set('n', '<C-n>', '<cmd>NvimTreeFocus<CR>')
+vim.keymap.set('n', '<leader>zt', '<cmd>Telekasten goto_today<CR>')
+vim.keymap.set('n', '<leader>zw', '<cmd>Telekasten goto_thisweek<CR>')
+vim.keymap.set('n', '<leader>u', '<cmd>mks! ~/Journal/journal.vim<CR>')
+
+
 -- vim: ts=2 sts=2 sw=2 et
